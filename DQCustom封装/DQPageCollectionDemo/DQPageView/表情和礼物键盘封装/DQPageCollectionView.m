@@ -65,7 +65,10 @@
     [self addSubview:self.collectionView];
     
 }
-
+- (void)reload
+{
+    [self.collectionView reloadData];
+}
 - (void)registerClass:(Class)registerClass forCellWithReuseIdentifier:(NSString *)identifier
 {
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:identifier];

@@ -37,6 +37,7 @@
 
 - (void)registerClass:(Class )registerClass  forCellWithReuseIdentifier:(NSString *)identifier;
 - (void)registerNib:(UINib * )nib  forCellWithReuseIdentifier:(NSString *)identifier;
+- (void)reload;
 
 // 设置PageControl的背景颜色和选中正常颜色
 - (void)setPageControlColor:(UIColor *)bgColor selectedColor:(UIColor *)selectedColor normalColor:(UIColor *)normalColor;
