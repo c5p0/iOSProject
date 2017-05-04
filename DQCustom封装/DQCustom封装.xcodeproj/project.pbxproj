@@ -11,7 +11,6 @@
 		1AC0E8D21EB185180043BEE6 /* DQPageCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0E8D11EB185180043BEE6 /* DQPageCollectionLayout.m */; };
 		1AC8A2F31EB9AB0100B09261 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8A2F21EB9AB0100B09261 /* LiveViewController.m */; };
 		1AC8A2F71EB9B36B00B09261 /* GlassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8A2F61EB9B36B00B09261 /* GlassViewController.m */; };
-		1AC8A2FA1EB9CA3E00B09261 /* RealTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8A2F91EB9CA3E00B09261 /* RealTimeViewController.m */; };
 		1ACDEEC11EB068AB00E54C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACDEEC01EB068AB00E54C27 /* main.m */; };
 		1ACDEEC41EB068AB00E54C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACDEEC31EB068AB00E54C27 /* AppDelegate.m */; };
 		1ACDEEC71EB068AB00E54C27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACDEEC61EB068AB00E54C27 /* ViewController.m */; };
@@ -35,6 +34,21 @@
 		1ACDEF141EB09DA200E54C27 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACDEF131EB09DA200E54C27 /* PageViewController.m */; };
 		1ACDEF171EB09EBF00E54C27 /* DQPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACDEF161EB09EBF00E54C27 /* DQPageView.m */; };
 		1ACDEF1A1EB0A39A00E54C27 /* DQTitleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACDEF191EB0A39A00E54C27 /* DQTitleStyle.m */; };
+		1ACF3B481EBB277300669614 /* DQDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B311EBB277300669614 /* DQDownLoader.m */; };
+		1ACF3B491EBB277300669614 /* DQDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B331EBB277300669614 /* DQDownLoadManager.m */; };
+		1ACF3B4A1EBB277300669614 /* DQFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B351EBB277300669614 /* DQFileTool.m */; };
+		1ACF3B4B1EBB277300669614 /* DQBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B381EBB277300669614 /* DQBannerCell.m */; };
+		1ACF3B4C1EBB277300669614 /* DQBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACF3B391EBB277300669614 /* DQBannerCell.xib */; };
+		1ACF3B4D1EBB277300669614 /* DQBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B3B1EBB277300669614 /* DQBannerView.m */; };
+		1ACF3B4E1EBB277300669614 /* DQBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACF3B3C1EBB277300669614 /* DQBannerView.xib */; };
+		1ACF3B4F1EBB277300669614 /* NSURL+SZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B3F1EBB277300669614 /* NSURL+SZ.m */; };
+		1ACF3B501EBB277300669614 /* XMGAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B411EBB277300669614 /* XMGAudioDownLoader.m */; };
+		1ACF3B511EBB277300669614 /* XMGRemoteAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B431EBB277300669614 /* XMGRemoteAudioFile.m */; };
+		1ACF3B521EBB277300669614 /* XMGRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B451EBB277300669614 /* XMGRemotePlayer.m */; };
+		1ACF3B531EBB277300669614 /* XMGRemoteResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B471EBB277300669614 /* XMGRemoteResourceLoaderDelegate.m */; };
+		1ACF3B5B1EBB287300669614 /* DQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B561EBB287300669614 /* DQNavigationController.m */; };
+		1ACF3B5C1EBB287300669614 /* DQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B581EBB287300669614 /* DQTabBar.m */; };
+		1ACF3B5D1EBB287300669614 /* DQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF3B5A1EBB287300669614 /* DQTabBarController.m */; };
 		266FFEAA8B4565A0BB2DD684 /* libPods-DQCustom封装.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A472231C612CA8A7FD1151 /* libPods-DQCustom封装.a */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +61,6 @@
 		1AC8A2F21EB9AB0100B09261 /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
 		1AC8A2F51EB9B36B00B09261 /* GlassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlassViewController.h; sourceTree = "<group>"; };
 		1AC8A2F61EB9B36B00B09261 /* GlassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlassViewController.m; sourceTree = "<group>"; };
-		1AC8A2F81EB9CA3E00B09261 /* RealTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeViewController.h; sourceTree = "<group>"; };
-		1AC8A2F91EB9CA3E00B09261 /* RealTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeViewController.m; sourceTree = "<group>"; };
 		1ACDEEBC1EB068AB00E54C27 /* DQCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACDEEC01EB068AB00E54C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ACDEEC21EB068AB00E54C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +105,34 @@
 		1ACDEF161EB09EBF00E54C27 /* DQPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPageView.m; sourceTree = "<group>"; };
 		1ACDEF181EB0A39A00E54C27 /* DQTitleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQTitleStyle.h; sourceTree = "<group>"; };
 		1ACDEF191EB0A39A00E54C27 /* DQTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQTitleStyle.m; sourceTree = "<group>"; };
+		1ACF3B301EBB277300669614 /* DQDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQDownLoader.h; sourceTree = "<group>"; };
+		1ACF3B311EBB277300669614 /* DQDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQDownLoader.m; sourceTree = "<group>"; };
+		1ACF3B321EBB277300669614 /* DQDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQDownLoadManager.h; sourceTree = "<group>"; };
+		1ACF3B331EBB277300669614 /* DQDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQDownLoadManager.m; sourceTree = "<group>"; };
+		1ACF3B341EBB277300669614 /* DQFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQFileTool.h; sourceTree = "<group>"; };
+		1ACF3B351EBB277300669614 /* DQFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQFileTool.m; sourceTree = "<group>"; };
+		1ACF3B371EBB277300669614 /* DQBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBannerCell.h; sourceTree = "<group>"; };
+		1ACF3B381EBB277300669614 /* DQBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQBannerCell.m; sourceTree = "<group>"; };
+		1ACF3B391EBB277300669614 /* DQBannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DQBannerCell.xib; sourceTree = "<group>"; };
+		1ACF3B3A1EBB277300669614 /* DQBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBannerView.h; sourceTree = "<group>"; };
+		1ACF3B3B1EBB277300669614 /* DQBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQBannerView.m; sourceTree = "<group>"; };
+		1ACF3B3C1EBB277300669614 /* DQBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DQBannerView.xib; sourceTree = "<group>"; };
+		1ACF3B3E1EBB277300669614 /* NSURL+SZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+SZ.h"; sourceTree = "<group>"; };
+		1ACF3B3F1EBB277300669614 /* NSURL+SZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+SZ.m"; sourceTree = "<group>"; };
+		1ACF3B401EBB277300669614 /* XMGAudioDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAudioDownLoader.h; sourceTree = "<group>"; };
+		1ACF3B411EBB277300669614 /* XMGAudioDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAudioDownLoader.m; sourceTree = "<group>"; };
+		1ACF3B421EBB277300669614 /* XMGRemoteAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGRemoteAudioFile.h; sourceTree = "<group>"; };
+		1ACF3B431EBB277300669614 /* XMGRemoteAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGRemoteAudioFile.m; sourceTree = "<group>"; };
+		1ACF3B441EBB277300669614 /* XMGRemotePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGRemotePlayer.h; sourceTree = "<group>"; };
+		1ACF3B451EBB277300669614 /* XMGRemotePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGRemotePlayer.m; sourceTree = "<group>"; };
+		1ACF3B461EBB277300669614 /* XMGRemoteResourceLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGRemoteResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		1ACF3B471EBB277300669614 /* XMGRemoteResourceLoaderDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGRemoteResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		1ACF3B551EBB287300669614 /* DQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQNavigationController.h; sourceTree = "<group>"; };
+		1ACF3B561EBB287300669614 /* DQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQNavigationController.m; sourceTree = "<group>"; };
+		1ACF3B571EBB287300669614 /* DQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQTabBar.h; sourceTree = "<group>"; };
+		1ACF3B581EBB287300669614 /* DQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQTabBar.m; sourceTree = "<group>"; };
+		1ACF3B591EBB287300669614 /* DQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQTabBarController.h; sourceTree = "<group>"; };
+		1ACF3B5A1EBB287300669614 /* DQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQTabBarController.m; sourceTree = "<group>"; };
 		88A472231C612CA8A7FD1151 /* libPods-DQCustom封装.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DQCustom封装.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FB40837FB5932C1244D1A3 /* Pods-DQCustom封装.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQCustom封装.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQCustom封装/Pods-DQCustom封装.release.xcconfig"; sourceTree = "<group>"; };
 		EBB6AB4A39DF9A672F86A520 /* Pods-DQCustom封装.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQCustom封装.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQCustom封装/Pods-DQCustom封装.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,8 +155,6 @@
 			children = (
 				1AC8A2F51EB9B36B00B09261 /* GlassViewController.h */,
 				1AC8A2F61EB9B36B00B09261 /* GlassViewController.m */,
-				1AC8A2F81EB9CA3E00B09261 /* RealTimeViewController.h */,
-				1AC8A2F91EB9CA3E00B09261 /* RealTimeViewController.m */,
 			);
 			path = "GPU滤镜";
 			sourceTree = "<group>";
@@ -142,6 +180,10 @@
 		1ACDEEBE1EB068AB00E54C27 /* DQPageCollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1ACF3B541EBB287300669614 /* 自定义UITab(中间凸起按钮封装) */,
+				1ACF3B2F1EBB277300669614 /* 断点下载器封装 */,
+				1ACF3B361EBB277300669614 /* 轮播图封装 */,
+				1ACF3B3D1EBB277300669614 /* 远程音频播放器封装 */,
 				1ADB9BF81EB8A5B400C2A0CE /* Live封装 */,
 				1ACDEEDA1EB06D5600E54C27 /* DQPageView */,
 				1ACDEEC21EB068AB00E54C27 /* AppDelegate.h */,
@@ -266,6 +308,62 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1ACF3B2F1EBB277300669614 /* 断点下载器封装 */ = {
+			isa = PBXGroup;
+			children = (
+				1ACF3B301EBB277300669614 /* DQDownLoader.h */,
+				1ACF3B311EBB277300669614 /* DQDownLoader.m */,
+				1ACF3B321EBB277300669614 /* DQDownLoadManager.h */,
+				1ACF3B331EBB277300669614 /* DQDownLoadManager.m */,
+				1ACF3B341EBB277300669614 /* DQFileTool.h */,
+				1ACF3B351EBB277300669614 /* DQFileTool.m */,
+			);
+			path = "断点下载器封装";
+			sourceTree = "<group>";
+		};
+		1ACF3B361EBB277300669614 /* 轮播图封装 */ = {
+			isa = PBXGroup;
+			children = (
+				1ACF3B371EBB277300669614 /* DQBannerCell.h */,
+				1ACF3B381EBB277300669614 /* DQBannerCell.m */,
+				1ACF3B391EBB277300669614 /* DQBannerCell.xib */,
+				1ACF3B3A1EBB277300669614 /* DQBannerView.h */,
+				1ACF3B3B1EBB277300669614 /* DQBannerView.m */,
+				1ACF3B3C1EBB277300669614 /* DQBannerView.xib */,
+			);
+			path = "轮播图封装";
+			sourceTree = "<group>";
+		};
+		1ACF3B3D1EBB277300669614 /* 远程音频播放器封装 */ = {
+			isa = PBXGroup;
+			children = (
+				1ACF3B3E1EBB277300669614 /* NSURL+SZ.h */,
+				1ACF3B3F1EBB277300669614 /* NSURL+SZ.m */,
+				1ACF3B401EBB277300669614 /* XMGAudioDownLoader.h */,
+				1ACF3B411EBB277300669614 /* XMGAudioDownLoader.m */,
+				1ACF3B421EBB277300669614 /* XMGRemoteAudioFile.h */,
+				1ACF3B431EBB277300669614 /* XMGRemoteAudioFile.m */,
+				1ACF3B441EBB277300669614 /* XMGRemotePlayer.h */,
+				1ACF3B451EBB277300669614 /* XMGRemotePlayer.m */,
+				1ACF3B461EBB277300669614 /* XMGRemoteResourceLoaderDelegate.h */,
+				1ACF3B471EBB277300669614 /* XMGRemoteResourceLoaderDelegate.m */,
+			);
+			path = "远程音频播放器封装";
+			sourceTree = "<group>";
+		};
+		1ACF3B541EBB287300669614 /* 自定义UITab(中间凸起按钮封装) */ = {
+			isa = PBXGroup;
+			children = (
+				1ACF3B551EBB287300669614 /* DQNavigationController.h */,
+				1ACF3B561EBB287300669614 /* DQNavigationController.m */,
+				1ACF3B571EBB287300669614 /* DQTabBar.h */,
+				1ACF3B581EBB287300669614 /* DQTabBar.m */,
+				1ACF3B591EBB287300669614 /* DQTabBarController.h */,
+				1ACF3B5A1EBB287300669614 /* DQTabBarController.m */,
+			);
+			path = "自定义UITab(中间凸起按钮封装)";
+			sourceTree = "<group>";
+		};
 		1ADB9BF81EB8A5B400C2A0CE /* Live封装 */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,8 +461,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACF3B4C1EBB277300669614 /* DQBannerCell.xib in Resources */,
 				1ACDEECF1EB068AC00E54C27 /* LaunchScreen.storyboard in Resources */,
 				1ACDEECC1EB068AC00E54C27 /* Assets.xcassets in Resources */,
+				1ACF3B4E1EBB277300669614 /* DQBannerView.xib in Resources */,
 				1ACDEECA1EB068AB00E54C27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,16 +524,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AC8A2FA1EB9CA3E00B09261 /* RealTimeViewController.m in Sources */,
 				1ACDEF081EB0883C00E54C27 /* UIView+Extension.m in Sources */,
+				1ACF3B4D1EBB277300669614 /* DQBannerView.m in Sources */,
 				1AC8A2F71EB9B36B00B09261 /* GlassViewController.m in Sources */,
 				1ACDEF101EB09A7E00E54C27 /* DQPageTitleView.m in Sources */,
 				1ACDEF001EB0883C00E54C27 /* NSDate+Extension.m in Sources */,
+				1ACF3B4F1EBB277300669614 /* NSURL+SZ.m in Sources */,
+				1ACF3B491EBB277300669614 /* DQDownLoadManager.m in Sources */,
 				1ACDEEFF1EB0883C00E54C27 /* CustomPlaceholderTextView.m in Sources */,
 				1ACDEF0B1EB0889700E54C27 /* UIColor+Extension.m in Sources */,
 				1ACDEF1A1EB0A39A00E54C27 /* DQTitleStyle.m in Sources */,
 				1ACDEEC71EB068AB00E54C27 /* ViewController.m in Sources */,
 				1ACDEEE41EB086CC00E54C27 /* DQWaterFallLayout.m in Sources */,
+				1ACF3B531EBB277300669614 /* XMGRemoteResourceLoaderDelegate.m in Sources */,
+				1ACF3B521EBB277300669614 /* XMGRemotePlayer.m in Sources */,
+				1ACF3B5B1EBB287300669614 /* DQNavigationController.m in Sources */,
 				1ACDEEC41EB068AB00E54C27 /* AppDelegate.m in Sources */,
 				1AC0E8CF1EB183E50043BEE6 /* DQPageCollectionView.m in Sources */,
 				1ACDEF031EB0883C00E54C27 /* MyTextField.m in Sources */,
@@ -444,11 +549,18 @@
 				1ACDEF061EB0883C00E54C27 /* UIImage+Extension.m in Sources */,
 				1ACDEF041EB0883C00E54C27 /* MyTextView.m in Sources */,
 				1ACDEF021EB0883C00E54C27 /* ImageCache.m in Sources */,
+				1ACF3B4B1EBB277300669614 /* DQBannerCell.m in Sources */,
 				1ACDEF171EB09EBF00E54C27 /* DQPageView.m in Sources */,
+				1ACF3B4A1EBB277300669614 /* DQFileTool.m in Sources */,
+				1ACF3B511EBB277300669614 /* XMGRemoteAudioFile.m in Sources */,
 				1AC8A2F31EB9AB0100B09261 /* LiveViewController.m in Sources */,
 				1AC0E8D21EB185180043BEE6 /* DQPageCollectionLayout.m in Sources */,
 				1ACDEF051EB0883C00E54C27 /* NSObject+property.m in Sources */,
+				1ACF3B5D1EBB287300669614 /* DQTabBarController.m in Sources */,
 				1ACDEF011EB0883C00E54C27 /* NSString+Extension.m in Sources */,
+				1ACF3B481EBB277300669614 /* DQDownLoader.m in Sources */,
+				1ACF3B5C1EBB287300669614 /* DQTabBar.m in Sources */,
+				1ACF3B501EBB277300669614 /* XMGAudioDownLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
