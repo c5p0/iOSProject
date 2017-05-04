@@ -47,6 +47,7 @@
 - (void)prepareLayout
 {
     [super prepareLayout];
+    
     // 1: 获取所有的Item个数
     NSInteger itemCount = [self.collectionView numberOfItemsInSection:0];
     
