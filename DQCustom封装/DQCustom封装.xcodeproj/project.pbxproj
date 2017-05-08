@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0275A11EC01E9900A516A7 /* UIView+XMGSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0275981EC01E9900A516A7 /* UIView+XMGSegmentBar.m */; };
+		1A0275A21EC01E9900A516A7 /* XMGDownLoadListernMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A02759A1EC01E9900A516A7 /* XMGDownLoadListernMainVC.m */; };
+		1A0275A31EC01E9900A516A7 /* XMGSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A02759C1EC01E9900A516A7 /* XMGSegmentBar.m */; };
+		1A0275A41EC01E9900A516A7 /* XMGSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A02759E1EC01E9900A516A7 /* XMGSegmentBarConfig.m */; };
+		1A0275A51EC01E9900A516A7 /* XMGSementBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0275A01EC01E9900A516A7 /* XMGSementBarVC.m */; };
 		1AC0E8CF1EB183E50043BEE6 /* DQPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0E8CE1EB183E50043BEE6 /* DQPageCollectionView.m */; };
 		1AC0E8D21EB185180043BEE6 /* DQPageCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0E8D11EB185180043BEE6 /* DQPageCollectionLayout.m */; };
 		1AC8A2F31EB9AB0100B09261 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8A2F21EB9AB0100B09261 /* LiveViewController.m */; };
@@ -53,6 +58,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A0275971EC01E9900A516A7 /* UIView+XMGSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGSegmentBar.h"; sourceTree = "<group>"; };
+		1A0275981EC01E9900A516A7 /* UIView+XMGSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGSegmentBar.m"; sourceTree = "<group>"; };
+		1A0275991EC01E9900A516A7 /* XMGDownLoadListernMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDownLoadListernMainVC.h; sourceTree = "<group>"; };
+		1A02759A1EC01E9900A516A7 /* XMGDownLoadListernMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoadListernMainVC.m; sourceTree = "<group>"; };
+		1A02759B1EC01E9900A516A7 /* XMGSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSegmentBar.h; sourceTree = "<group>"; };
+		1A02759C1EC01E9900A516A7 /* XMGSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSegmentBar.m; sourceTree = "<group>"; };
+		1A02759D1EC01E9900A516A7 /* XMGSegmentBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSegmentBarConfig.h; sourceTree = "<group>"; };
+		1A02759E1EC01E9900A516A7 /* XMGSegmentBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSegmentBarConfig.m; sourceTree = "<group>"; };
+		1A02759F1EC01E9900A516A7 /* XMGSementBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSementBarVC.h; sourceTree = "<group>"; };
+		1A0275A01EC01E9900A516A7 /* XMGSementBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSementBarVC.m; sourceTree = "<group>"; };
 		1AC0E8CD1EB183E50043BEE6 /* DQPageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPageCollectionView.h; sourceTree = "<group>"; };
 		1AC0E8CE1EB183E50043BEE6 /* DQPageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPageCollectionView.m; sourceTree = "<group>"; };
 		1AC0E8D01EB185180043BEE6 /* DQPageCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPageCollectionLayout.h; sourceTree = "<group>"; };
@@ -150,6 +165,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0275961EC01E9900A516A7 /* XMGSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				1A0275971EC01E9900A516A7 /* UIView+XMGSegmentBar.h */,
+				1A0275981EC01E9900A516A7 /* UIView+XMGSegmentBar.m */,
+				1A0275991EC01E9900A516A7 /* XMGDownLoadListernMainVC.h */,
+				1A02759A1EC01E9900A516A7 /* XMGDownLoadListernMainVC.m */,
+				1A02759B1EC01E9900A516A7 /* XMGSegmentBar.h */,
+				1A02759C1EC01E9900A516A7 /* XMGSegmentBar.m */,
+				1A02759D1EC01E9900A516A7 /* XMGSegmentBarConfig.h */,
+				1A02759E1EC01E9900A516A7 /* XMGSegmentBarConfig.m */,
+				1A02759F1EC01E9900A516A7 /* XMGSementBarVC.h */,
+				1A0275A01EC01E9900A516A7 /* XMGSementBarVC.m */,
+			);
+			path = XMGSegmentBar;
+			sourceTree = "<group>";
+		};
 		1AC8A2F41EB9AD0B00B09261 /* GPU滤镜 */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +212,7 @@
 		1ACDEEBE1EB068AB00E54C27 /* DQPageCollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1A0275961EC01E9900A516A7 /* XMGSegmentBar */,
 				1ACF3B541EBB287300669614 /* 自定义UITab(中间凸起按钮封装) */,
 				1ACF3B2F1EBB277300669614 /* 断点下载器封装 */,
 				1ACF3B361EBB277300669614 /* 轮播图封装 */,
@@ -541,12 +574,17 @@
 				1ACF3B5B1EBB287300669614 /* DQNavigationController.m in Sources */,
 				1ACDEEC41EB068AB00E54C27 /* AppDelegate.m in Sources */,
 				1AC0E8CF1EB183E50043BEE6 /* DQPageCollectionView.m in Sources */,
+				1A0275A41EC01E9900A516A7 /* XMGSegmentBarConfig.m in Sources */,
 				1ACDEF031EB0883C00E54C27 /* MyTextField.m in Sources */,
 				1ACDEEC11EB068AB00E54C27 /* main.m in Sources */,
 				1ACDEF111EB09A7E00E54C27 /* DQPageContentView.m in Sources */,
 				1ACDEF141EB09DA200E54C27 /* PageViewController.m in Sources */,
 				1ACDEF071EB0883C00E54C27 /* UIImageView+Extension.m in Sources */,
+				1A0275A51EC01E9900A516A7 /* XMGSementBarVC.m in Sources */,
+				1A0275A31EC01E9900A516A7 /* XMGSegmentBar.m in Sources */,
 				1ACDEF061EB0883C00E54C27 /* UIImage+Extension.m in Sources */,
+				1A0275A11EC01E9900A516A7 /* UIView+XMGSegmentBar.m in Sources */,
+				1A0275A21EC01E9900A516A7 /* XMGDownLoadListernMainVC.m in Sources */,
 				1ACDEF041EB0883C00E54C27 /* MyTextView.m in Sources */,
 				1ACDEF021EB0883C00E54C27 /* ImageCache.m in Sources */,
 				1ACF3B4B1EBB277300669614 /* DQBannerCell.m in Sources */,
