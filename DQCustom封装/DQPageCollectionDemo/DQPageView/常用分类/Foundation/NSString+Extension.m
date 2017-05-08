@@ -7,6 +7,7 @@
 //
 
 #import "NSString+Extension.h"
+#import <CommonCrypto/CommonDigest.h>
 #define EmojiCodeToSymbol(c) ((((0x808080F0 | (c & 0x3F000) >> 4) | (c & 0xFC0) << 10) | (c & 0x1C0000) << 18) | (c & 0x3F) << 24)
 @implementation NSString (Extension)
 /**
@@ -169,5 +170,21 @@
     CFStringTransform((__bridge CFMutableStringRef)pinyin, NULL, kCFStringTransformStripDiacritics, NO);
     return [pinyin stringByReplacingOccurrencesOfString:@" " withString:@""];
 }
-
+- (NSString *)md5{
+    
+    const char *data = self.UTF8String;
+    
+    unsigned char digest[CC_MD5_DIGEST_LENGTH];
+    
+    CC_MD5(data, (CC_LONG)strlen(data), digest);
+    
+    NSMutableString *result = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
+    
+    for (int i = 0; i < CC_MD5_DIGEST_LENGTH; i ++) {
+        [result appendFormat:@"%02x", digest[i]];
+    }
+    
+    return result;
+    
+}
 @end

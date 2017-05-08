@@ -12,6 +12,10 @@
 		1A0275A31EC01E9900A516A7 /* XMGSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A02759C1EC01E9900A516A7 /* XMGSegmentBar.m */; };
 		1A0275A41EC01E9900A516A7 /* XMGSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A02759E1EC01E9900A516A7 /* XMGSegmentBarConfig.m */; };
 		1A0275A51EC01E9900A516A7 /* XMGSementBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0275A01EC01E9900A516A7 /* XMGSementBarVC.m */; };
+		1A078B181EC0713600746B59 /* CALayer+Aimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B101EC0713600746B59 /* CALayer+Aimate.m */; };
+		1A078B191EC0713600746B59 /* XMGDanmuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B131EC0713600746B59 /* XMGDanmuView.m */; };
+		1A078B1A1EC0713600746B59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B151EC0713600746B59 /* ViewController.m */; };
+		1A078B1B1EC0713600746B59 /* XMGDanmuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B171EC0713600746B59 /* XMGDanmuModel.m */; };
 		1AC0E8CF1EB183E50043BEE6 /* DQPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0E8CE1EB183E50043BEE6 /* DQPageCollectionView.m */; };
 		1AC0E8D21EB185180043BEE6 /* DQPageCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0E8D11EB185180043BEE6 /* DQPageCollectionLayout.m */; };
 		1AC8A2F31EB9AB0100B09261 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8A2F21EB9AB0100B09261 /* LiveViewController.m */; };
@@ -68,6 +72,15 @@
 		1A02759E1EC01E9900A516A7 /* XMGSegmentBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSegmentBarConfig.m; sourceTree = "<group>"; };
 		1A02759F1EC01E9900A516A7 /* XMGSementBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSementBarVC.h; sourceTree = "<group>"; };
 		1A0275A01EC01E9900A516A7 /* XMGSementBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSementBarVC.m; sourceTree = "<group>"; };
+		1A078B0F1EC0713600746B59 /* CALayer+Aimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Aimate.h"; sourceTree = "<group>"; };
+		1A078B101EC0713600746B59 /* CALayer+Aimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Aimate.m"; sourceTree = "<group>"; };
+		1A078B111EC0713600746B59 /* XMGDanmuModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDanmuModelProtocol.h; sourceTree = "<group>"; };
+		1A078B121EC0713600746B59 /* XMGDanmuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDanmuView.h; sourceTree = "<group>"; };
+		1A078B131EC0713600746B59 /* XMGDanmuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDanmuView.m; sourceTree = "<group>"; };
+		1A078B141EC0713600746B59 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A078B151EC0713600746B59 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A078B161EC0713600746B59 /* XMGDanmuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDanmuModel.h; sourceTree = "<group>"; };
+		1A078B171EC0713600746B59 /* XMGDanmuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDanmuModel.m; sourceTree = "<group>"; };
 		1AC0E8CD1EB183E50043BEE6 /* DQPageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPageCollectionView.h; sourceTree = "<group>"; };
 		1AC0E8CE1EB183E50043BEE6 /* DQPageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPageCollectionView.m; sourceTree = "<group>"; };
 		1AC0E8D01EB185180043BEE6 /* DQPageCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPageCollectionLayout.h; sourceTree = "<group>"; };
@@ -182,6 +195,30 @@
 			path = XMGSegmentBar;
 			sourceTree = "<group>";
 		};
+		1A078B0D1EC0713600746B59 /* 弹幕 */ = {
+			isa = PBXGroup;
+			children = (
+				1A078B0E1EC0713600746B59 /* DanmuView */,
+				1A078B141EC0713600746B59 /* ViewController.h */,
+				1A078B151EC0713600746B59 /* ViewController.m */,
+				1A078B161EC0713600746B59 /* XMGDanmuModel.h */,
+				1A078B171EC0713600746B59 /* XMGDanmuModel.m */,
+			);
+			path = "弹幕";
+			sourceTree = "<group>";
+		};
+		1A078B0E1EC0713600746B59 /* DanmuView */ = {
+			isa = PBXGroup;
+			children = (
+				1A078B0F1EC0713600746B59 /* CALayer+Aimate.h */,
+				1A078B101EC0713600746B59 /* CALayer+Aimate.m */,
+				1A078B111EC0713600746B59 /* XMGDanmuModelProtocol.h */,
+				1A078B121EC0713600746B59 /* XMGDanmuView.h */,
+				1A078B131EC0713600746B59 /* XMGDanmuView.m */,
+			);
+			path = DanmuView;
+			sourceTree = "<group>";
+		};
 		1AC8A2F41EB9AD0B00B09261 /* GPU滤镜 */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +249,7 @@
 		1ACDEEBE1EB068AB00E54C27 /* DQPageCollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1A078B0D1EC0713600746B59 /* 弹幕 */,
 				1A0275961EC01E9900A516A7 /* XMGSegmentBar */,
 				1ACF3B541EBB287300669614 /* 自定义UITab(中间凸起按钮封装) */,
 				1ACF3B2F1EBB277300669614 /* 断点下载器封装 */,
@@ -558,6 +596,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACDEF081EB0883C00E54C27 /* UIView+Extension.m in Sources */,
+				1A078B191EC0713600746B59 /* XMGDanmuView.m in Sources */,
 				1ACF3B4D1EBB277300669614 /* DQBannerView.m in Sources */,
 				1AC8A2F71EB9B36B00B09261 /* GlassViewController.m in Sources */,
 				1ACDEF101EB09A7E00E54C27 /* DQPageTitleView.m in Sources */,
@@ -565,6 +604,7 @@
 				1ACF3B4F1EBB277300669614 /* NSURL+SZ.m in Sources */,
 				1ACF3B491EBB277300669614 /* DQDownLoadManager.m in Sources */,
 				1ACDEEFF1EB0883C00E54C27 /* CustomPlaceholderTextView.m in Sources */,
+				1A078B1A1EC0713600746B59 /* ViewController.m in Sources */,
 				1ACDEF0B1EB0889700E54C27 /* UIColor+Extension.m in Sources */,
 				1ACDEF1A1EB0A39A00E54C27 /* DQTitleStyle.m in Sources */,
 				1ACDEEC71EB068AB00E54C27 /* ViewController.m in Sources */,
@@ -581,6 +621,7 @@
 				1ACDEF141EB09DA200E54C27 /* PageViewController.m in Sources */,
 				1ACDEF071EB0883C00E54C27 /* UIImageView+Extension.m in Sources */,
 				1A0275A51EC01E9900A516A7 /* XMGSementBarVC.m in Sources */,
+				1A078B1B1EC0713600746B59 /* XMGDanmuModel.m in Sources */,
 				1A0275A31EC01E9900A516A7 /* XMGSegmentBar.m in Sources */,
 				1ACDEF061EB0883C00E54C27 /* UIImage+Extension.m in Sources */,
 				1A0275A11EC01E9900A516A7 /* UIView+XMGSegmentBar.m in Sources */,
@@ -598,6 +639,7 @@
 				1ACDEF011EB0883C00E54C27 /* NSString+Extension.m in Sources */,
 				1ACF3B481EBB277300669614 /* DQDownLoader.m in Sources */,
 				1ACF3B5C1EBB287300669614 /* DQTabBar.m in Sources */,
+				1A078B181EC0713600746B59 /* CALayer+Aimate.m in Sources */,
 				1ACF3B501EBB277300669614 /* XMGAudioDownLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
