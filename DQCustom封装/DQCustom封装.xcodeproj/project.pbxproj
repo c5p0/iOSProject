@@ -16,6 +16,7 @@
 		1A078B191EC0713600746B59 /* XMGDanmuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B131EC0713600746B59 /* XMGDanmuView.m */; };
 		1A078B1A1EC0713600746B59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B151EC0713600746B59 /* ViewController.m */; };
 		1A078B1B1EC0713600746B59 /* XMGDanmuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B171EC0713600746B59 /* XMGDanmuModel.m */; };
+		1AB69DC91EC14D19008AD258 /* CGExpressionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */; };
 		1AC0E8CF1EB183E50043BEE6 /* DQPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0E8CE1EB183E50043BEE6 /* DQPageCollectionView.m */; };
 		1AC0E8D21EB185180043BEE6 /* DQPageCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0E8D11EB185180043BEE6 /* DQPageCollectionLayout.m */; };
 		1AC8A2F31EB9AB0100B09261 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8A2F21EB9AB0100B09261 /* LiveViewController.m */; };
@@ -81,6 +82,8 @@
 		1A078B151EC0713600746B59 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1A078B161EC0713600746B59 /* XMGDanmuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDanmuModel.h; sourceTree = "<group>"; };
 		1A078B171EC0713600746B59 /* XMGDanmuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDanmuModel.m; sourceTree = "<group>"; };
+		1AB69DC71EC14D19008AD258 /* CGExpressionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGExpressionTextView.h; sourceTree = "<group>"; };
+		1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGExpressionTextView.m; sourceTree = "<group>"; };
 		1AC0E8CD1EB183E50043BEE6 /* DQPageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPageCollectionView.h; sourceTree = "<group>"; };
 		1AC0E8CE1EB183E50043BEE6 /* DQPageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPageCollectionView.m; sourceTree = "<group>"; };
 		1AC0E8D01EB185180043BEE6 /* DQPageCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPageCollectionLayout.h; sourceTree = "<group>"; };
@@ -219,6 +222,15 @@
 			path = DanmuView;
 			sourceTree = "<group>";
 		};
+		1AB69DC61EC14D19008AD258 /* 表情文字输入框封装 */ = {
+			isa = PBXGroup;
+			children = (
+				1AB69DC71EC14D19008AD258 /* CGExpressionTextView.h */,
+				1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */,
+			);
+			path = "表情文字输入框封装";
+			sourceTree = "<group>";
+		};
 		1AC8A2F41EB9AD0B00B09261 /* GPU滤镜 */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +261,7 @@
 		1ACDEEBE1EB068AB00E54C27 /* DQPageCollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1AB69DC61EC14D19008AD258 /* 表情文字输入框封装 */,
 				1A078B0D1EC0713600746B59 /* 弹幕 */,
 				1A0275961EC01E9900A516A7 /* XMGSegmentBar */,
 				1ACF3B541EBB287300669614 /* 自定义UITab(中间凸起按钮封装) */,
@@ -617,6 +630,7 @@
 				1A0275A41EC01E9900A516A7 /* XMGSegmentBarConfig.m in Sources */,
 				1ACDEF031EB0883C00E54C27 /* MyTextField.m in Sources */,
 				1ACDEEC11EB068AB00E54C27 /* main.m in Sources */,
+				1AB69DC91EC14D19008AD258 /* CGExpressionTextView.m in Sources */,
 				1ACDEF111EB09A7E00E54C27 /* DQPageContentView.m in Sources */,
 				1ACDEF141EB09DA200E54C27 /* PageViewController.m in Sources */,
 				1ACDEF071EB0883C00E54C27 /* UIImageView+Extension.m in Sources */,
