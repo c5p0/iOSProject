@@ -1,12 +1,15 @@
 PODS:
   - GPUImage (0.1.7)
+  - IHKeyboardAvoiding (2.6)
 
 DEPENDENCIES:
   - GPUImage
+  - IHKeyboardAvoiding
 
 SPEC CHECKSUMS:
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  IHKeyboardAvoiding: d2541ee56dad83e160cd9aed0468c52247af6f49
 
-PODFILE CHECKSUM: 820811f72cfbec5dfdbb167b51272bedff1fcf78
+PODFILE CHECKSUM: 632981be70bf00e9f07ed69f468b67dd90e48ba1
 
 COCOAPODS: 1.0.1

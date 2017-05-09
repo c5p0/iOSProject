@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5244F76F80C73E7B106174275F8B0073'
-               BlueprintName = 'Pods-DQCustom封装'
+               BlueprintIdentifier = '758BD33A54E94AFAEF82DF604E460408'
+               BlueprintName = 'IHKeyboardAvoiding'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-DQCustom封装.a'>
+               BuildableName = 'libIHKeyboardAvoiding.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
