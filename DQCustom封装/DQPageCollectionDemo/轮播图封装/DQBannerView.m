@@ -8,7 +8,7 @@
 
 #import "DQBannerView.h"
 #import "DQBannerCell.h"
-#import "UIImageView+WebCache.h"
+//#import "UIImageView+WebCache.h"
 #define kMaxRow 10000
 @interface DQBannerView()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -85,7 +85,7 @@ static NSString * bannerReuseIdentifier = @"bannerReuseIdentifier";
     if (self.type == DQBannerSourceTypeFromLocal) {
         cell.bannerImageView.image = [UIImage imageNamed:self.imageUrlArray[index]];
     }else{
-        [cell.bannerImageView sd_setImageWithURL:[NSURL URLWithString:self.imageUrlArray[index]] placeholderImage:[UIImage imageNamed:self.placeHolderStr]];
+       // [cell.bannerImageView sd_setImageWithURL:[NSURL URLWithString:self.imageUrlArray[index]] placeholderImage:[UIImage imageNamed:self.placeHolderStr]];
     }
     return cell;
 }

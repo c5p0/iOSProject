@@ -8,7 +8,9 @@
 
 #import "GlassViewController.h"
 #import <GPUImage/GPUImage.h>
+#import <IHKeyboardAvoiding/IHKeyboardAvoiding.h>
 @interface GlassViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *testFiled;
 
 @end
 
@@ -16,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [IHKeyboardAvoiding setAvoidingView:self.testFiled];
 }
 
 - (void)didReceiveMemoryWarning {

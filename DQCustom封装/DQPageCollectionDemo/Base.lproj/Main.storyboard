@@ -20,8 +20,28 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hyC-6M-2uH">
+                                <rect key="frame" x="0.0" y="543" width="375" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="IjI-Kh-QU9"/>
+                                </constraints>
+                                <color key="textColor" red="0.97254901959999995" green="0.58039215690000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hyC-6M-2uH" secondAttribute="trailing" id="KJr-lZ-7vL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hyC-6M-2uH" secondAttribute="bottom" constant="94" id="XKg-Jw-MUR"/>
+                            <constraint firstItem="hyC-6M-2uH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="p93-X4-3xy"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="testFiled" destination="hyC-6M-2uH" id="Xwd-uh-kjf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

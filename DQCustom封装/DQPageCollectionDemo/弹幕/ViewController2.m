@@ -6,17 +6,17 @@
 //  Copyright © 2017年 xmg. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewController2.h"
 #import "XMGDanmuView.h"
 #import "XMGDanmuModel.h"
 
-@interface ViewController () <XMGDanmuViewProtocol>
+@interface ViewController2 () <XMGDanmuViewProtocol>
 
 @property (nonatomic, weak) XMGDanmuView *danmuView;
 
 @end
 
-@implementation ViewController
+@implementation ViewController2
 
 - (void)viewDidLoad {
     [super viewDidLoad];

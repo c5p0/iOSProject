@@ -14,7 +14,7 @@
 		1A0275A51EC01E9900A516A7 /* XMGSementBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0275A01EC01E9900A516A7 /* XMGSementBarVC.m */; };
 		1A078B181EC0713600746B59 /* CALayer+Aimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B101EC0713600746B59 /* CALayer+Aimate.m */; };
 		1A078B191EC0713600746B59 /* XMGDanmuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B131EC0713600746B59 /* XMGDanmuView.m */; };
-		1A078B1A1EC0713600746B59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B151EC0713600746B59 /* ViewController.m */; };
+		1A078B1A1EC0713600746B59 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B151EC0713600746B59 /* ViewController2.m */; };
 		1A078B1B1EC0713600746B59 /* XMGDanmuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B171EC0713600746B59 /* XMGDanmuModel.m */; };
 		1AB69DC91EC14D19008AD258 /* CGExpressionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */; };
 		1AB69DD81EC155D8008AD258 /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB69DCF1EC155D8008AD258 /* LameTool.m */; };
@@ -83,8 +83,8 @@
 		1A078B111EC0713600746B59 /* XMGDanmuModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDanmuModelProtocol.h; sourceTree = "<group>"; };
 		1A078B121EC0713600746B59 /* XMGDanmuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDanmuView.h; sourceTree = "<group>"; };
 		1A078B131EC0713600746B59 /* XMGDanmuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDanmuView.m; sourceTree = "<group>"; };
-		1A078B141EC0713600746B59 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A078B151EC0713600746B59 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A078B141EC0713600746B59 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		1A078B151EC0713600746B59 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		1A078B161EC0713600746B59 /* XMGDanmuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDanmuModel.h; sourceTree = "<group>"; };
 		1A078B171EC0713600746B59 /* XMGDanmuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDanmuModel.m; sourceTree = "<group>"; };
 		1AB69DC71EC14D19008AD258 /* CGExpressionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGExpressionTextView.h; sourceTree = "<group>"; };
@@ -219,8 +219,8 @@
 			isa = PBXGroup;
 			children = (
 				1A078B0E1EC0713600746B59 /* DanmuView */,
-				1A078B141EC0713600746B59 /* ViewController.h */,
-				1A078B151EC0713600746B59 /* ViewController.m */,
+				1A078B141EC0713600746B59 /* ViewController2.h */,
+				1A078B151EC0713600746B59 /* ViewController2.m */,
 				1A078B161EC0713600746B59 /* XMGDanmuModel.h */,
 				1A078B171EC0713600746B59 /* XMGDanmuModel.m */,
 			);
@@ -670,7 +670,7 @@
 				1ACF3B4F1EBB277300669614 /* NSURL+SZ.m in Sources */,
 				1ACF3B491EBB277300669614 /* DQDownLoadManager.m in Sources */,
 				1ACDEEFF1EB0883C00E54C27 /* CustomPlaceholderTextView.m in Sources */,
-				1A078B1A1EC0713600746B59 /* ViewController.m in Sources */,
+				1A078B1A1EC0713600746B59 /* ViewController2.m in Sources */,
 				1ACDEF0B1EB0889700E54C27 /* UIColor+Extension.m in Sources */,
 				1ACDEF1A1EB0A39A00E54C27 /* DQTitleStyle.m in Sources */,
 				1ACDEEC71EB068AB00E54C27 /* ViewController.m in Sources */,
