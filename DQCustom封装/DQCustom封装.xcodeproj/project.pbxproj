@@ -16,6 +16,20 @@
 		1A078B191EC0713600746B59 /* XMGDanmuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B131EC0713600746B59 /* XMGDanmuView.m */; };
 		1A078B1A1EC0713600746B59 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B151EC0713600746B59 /* ViewController2.m */; };
 		1A078B1B1EC0713600746B59 /* XMGDanmuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A078B171EC0713600746B59 /* XMGDanmuModel.m */; };
+		1A44E3CD1ECC4D600014825A /* CalendarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3B81ECC4D600014825A /* CalendarButton.m */; };
+		1A44E3CE1ECC4D600014825A /* CGCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3BA1ECC4D600014825A /* CGCalendarCollectionViewCell.m */; };
+		1A44E3CF1ECC4D600014825A /* CGCalendarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A44E3BB1ECC4D600014825A /* CGCalendarCollectionViewCell.xib */; };
+		1A44E3D01ECC4D600014825A /* CGCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3BD1ECC4D600014825A /* CGCalendarView.m */; };
+		1A44E3D11ECC4D600014825A /* NSDate+Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3BF1ECC4D600014825A /* NSDate+Calculate.m */; };
+		1A44E3D21ECC4D600014825A /* UIImage+Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3C11ECC4D600014825A /* UIImage+Calendar.m */; };
+		1A44E3D31ECC4D600014825A /* CGCustomerSecondMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3C61ECC4D600014825A /* CGCustomerSecondMenuCell.m */; };
+		1A44E3D41ECC4D600014825A /* CGCustomerSecondMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A44E3C71ECC4D600014825A /* CGCustomerSecondMenuCell.xib */; };
+		1A44E3D51ECC4D600014825A /* CGCustomerSencodMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3C91ECC4D600014825A /* CGCustomerSencodMenu.m */; };
+		1A44E3D61ECC4D600014825A /* CGCustomerSencodMenuSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3CB1ECC4D600014825A /* CGCustomerSencodMenuSectionView.m */; };
+		1A44E3D71ECC4D600014825A /* CGCustomerSencodMenuSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A44E3CC1ECC4D600014825A /* CGCustomerSencodMenuSectionView.xib */; };
+		1A44E3E51ECC4E040014825A /* ChildModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3E21ECC4E040014825A /* ChildModel.m */; };
+		1A44E3E61ECC4E040014825A /* ParentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3E41ECC4E040014825A /* ParentModel.m */; };
+		1A44E3E81ECC4E250014825A /* CalendarAndCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3E71ECC4E250014825A /* CalendarAndCheckBoxViewController.m */; };
 		1AB69DC91EC14D19008AD258 /* CGExpressionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */; };
 		1AB69DD81EC155D8008AD258 /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB69DCF1EC155D8008AD258 /* LameTool.m */; };
 		1AB69DD91EC155D8008AD258 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB69DD01EC155D8008AD258 /* libmp3lame.a */; };
@@ -87,6 +101,32 @@
 		1A078B151EC0713600746B59 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		1A078B161EC0713600746B59 /* XMGDanmuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDanmuModel.h; sourceTree = "<group>"; };
 		1A078B171EC0713600746B59 /* XMGDanmuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDanmuModel.m; sourceTree = "<group>"; };
+		1A44E3B71ECC4D600014825A /* CalendarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarButton.h; sourceTree = "<group>"; };
+		1A44E3B81ECC4D600014825A /* CalendarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarButton.m; sourceTree = "<group>"; };
+		1A44E3B91ECC4D600014825A /* CGCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		1A44E3BA1ECC4D600014825A /* CGCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		1A44E3BB1ECC4D600014825A /* CGCalendarCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGCalendarCollectionViewCell.xib; sourceTree = "<group>"; };
+		1A44E3BC1ECC4D600014825A /* CGCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCalendarView.h; sourceTree = "<group>"; };
+		1A44E3BD1ECC4D600014825A /* CGCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCalendarView.m; sourceTree = "<group>"; };
+		1A44E3BE1ECC4D600014825A /* NSDate+Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calculate.h"; sourceTree = "<group>"; };
+		1A44E3BF1ECC4D600014825A /* NSDate+Calculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calculate.m"; sourceTree = "<group>"; };
+		1A44E3C01ECC4D600014825A /* UIImage+Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Calendar.h"; sourceTree = "<group>"; };
+		1A44E3C11ECC4D600014825A /* UIImage+Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Calendar.m"; sourceTree = "<group>"; };
+		1A44E3C41ECC4D600014825A /* CGCustomerModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCustomerModelProtocol.h; sourceTree = "<group>"; };
+		1A44E3C51ECC4D600014825A /* CGCustomerSecondMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCustomerSecondMenuCell.h; sourceTree = "<group>"; };
+		1A44E3C61ECC4D600014825A /* CGCustomerSecondMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCustomerSecondMenuCell.m; sourceTree = "<group>"; };
+		1A44E3C71ECC4D600014825A /* CGCustomerSecondMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGCustomerSecondMenuCell.xib; sourceTree = "<group>"; };
+		1A44E3C81ECC4D600014825A /* CGCustomerSencodMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCustomerSencodMenu.h; sourceTree = "<group>"; };
+		1A44E3C91ECC4D600014825A /* CGCustomerSencodMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCustomerSencodMenu.m; sourceTree = "<group>"; };
+		1A44E3CA1ECC4D600014825A /* CGCustomerSencodMenuSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCustomerSencodMenuSectionView.h; sourceTree = "<group>"; };
+		1A44E3CB1ECC4D600014825A /* CGCustomerSencodMenuSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCustomerSencodMenuSectionView.m; sourceTree = "<group>"; };
+		1A44E3CC1ECC4D600014825A /* CGCustomerSencodMenuSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGCustomerSencodMenuSectionView.xib; sourceTree = "<group>"; };
+		1A44E3D81ECC4DA70014825A /* CalendarAndCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarAndCheckBoxViewController.h; sourceTree = "<group>"; };
+		1A44E3E11ECC4E040014825A /* ChildModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildModel.h; sourceTree = "<group>"; };
+		1A44E3E21ECC4E040014825A /* ChildModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildModel.m; sourceTree = "<group>"; };
+		1A44E3E31ECC4E040014825A /* ParentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentModel.h; sourceTree = "<group>"; };
+		1A44E3E41ECC4E040014825A /* ParentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentModel.m; sourceTree = "<group>"; };
+		1A44E3E71ECC4E250014825A /* CalendarAndCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarAndCheckBoxViewController.m; sourceTree = "<group>"; };
 		1AB69DC71EC14D19008AD258 /* CGExpressionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGExpressionTextView.h; sourceTree = "<group>"; };
 		1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGExpressionTextView.m; sourceTree = "<group>"; };
 		1AB69DCD1EC155D8008AD258 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
@@ -239,6 +279,62 @@
 			path = DanmuView;
 			sourceTree = "<group>";
 		};
+		1A44E3B51ECC4D600014825A /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				1A44E3B61ECC4D600014825A /* calendar */,
+				1A44E3E11ECC4E040014825A /* ChildModel.h */,
+				1A44E3E21ECC4E040014825A /* ChildModel.m */,
+				1A44E3E31ECC4E040014825A /* ParentModel.h */,
+				1A44E3E41ECC4E040014825A /* ParentModel.m */,
+				1A44E3D81ECC4DA70014825A /* CalendarAndCheckBoxViewController.h */,
+				1A44E3E71ECC4E250014825A /* CalendarAndCheckBoxViewController.m */,
+			);
+			path = "日历";
+			sourceTree = "<group>";
+		};
+		1A44E3B61ECC4D600014825A /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				1A44E3B71ECC4D600014825A /* CalendarButton.h */,
+				1A44E3B81ECC4D600014825A /* CalendarButton.m */,
+				1A44E3B91ECC4D600014825A /* CGCalendarCollectionViewCell.h */,
+				1A44E3BA1ECC4D600014825A /* CGCalendarCollectionViewCell.m */,
+				1A44E3BB1ECC4D600014825A /* CGCalendarCollectionViewCell.xib */,
+				1A44E3BC1ECC4D600014825A /* CGCalendarView.h */,
+				1A44E3BD1ECC4D600014825A /* CGCalendarView.m */,
+				1A44E3BE1ECC4D600014825A /* NSDate+Calculate.h */,
+				1A44E3BF1ECC4D600014825A /* NSDate+Calculate.m */,
+				1A44E3C01ECC4D600014825A /* UIImage+Calendar.h */,
+				1A44E3C11ECC4D600014825A /* UIImage+Calendar.m */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
+		1A44E3C21ECC4D600014825A /* 二级复选框全选 */ = {
+			isa = PBXGroup;
+			children = (
+				1A44E3C31ECC4D600014825A /* menu */,
+			);
+			path = "二级复选框全选";
+			sourceTree = "<group>";
+		};
+		1A44E3C31ECC4D600014825A /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				1A44E3C41ECC4D600014825A /* CGCustomerModelProtocol.h */,
+				1A44E3C51ECC4D600014825A /* CGCustomerSecondMenuCell.h */,
+				1A44E3C61ECC4D600014825A /* CGCustomerSecondMenuCell.m */,
+				1A44E3C71ECC4D600014825A /* CGCustomerSecondMenuCell.xib */,
+				1A44E3C81ECC4D600014825A /* CGCustomerSencodMenu.h */,
+				1A44E3C91ECC4D600014825A /* CGCustomerSencodMenu.m */,
+				1A44E3CA1ECC4D600014825A /* CGCustomerSencodMenuSectionView.h */,
+				1A44E3CB1ECC4D600014825A /* CGCustomerSencodMenuSectionView.m */,
+				1A44E3CC1ECC4D600014825A /* CGCustomerSencodMenuSectionView.xib */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
 		1AB69DC61EC14D19008AD258 /* 表情文字输入框封装 */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +408,8 @@
 		1ACDEEBE1EB068AB00E54C27 /* DQPageCollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1A44E3B51ECC4D600014825A /* 日历 */,
+				1A44E3C21ECC4D600014825A /* 二级复选框全选 */,
 				1AB69DCA1EC155D8008AD258 /* 录音压缩播放封装 */,
 				1AB69DC61EC14D19008AD258 /* 表情文字输入框封装 */,
 				1A078B0D1EC0713600746B59 /* 弹幕 */,
@@ -597,8 +695,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A44E3D41ECC4D600014825A /* CGCustomerSecondMenuCell.xib in Resources */,
+				1A44E3D71ECC4D600014825A /* CGCustomerSencodMenuSectionView.xib in Resources */,
 				1ACF3B4C1EBB277300669614 /* DQBannerCell.xib in Resources */,
 				1ACDEECF1EB068AC00E54C27 /* LaunchScreen.storyboard in Resources */,
+				1A44E3CF1ECC4D600014825A /* CGCalendarCollectionViewCell.xib in Resources */,
 				1ACDEECC1EB068AC00E54C27 /* Assets.xcassets in Resources */,
 				1ACF3B4E1EBB277300669614 /* DQBannerView.xib in Resources */,
 				1ACDEECA1EB068AB00E54C27 /* Main.storyboard in Resources */,
@@ -661,6 +762,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACDEF081EB0883C00E54C27 /* UIView+Extension.m in Sources */,
+				1A44E3D11ECC4D600014825A /* NSDate+Calculate.m in Sources */,
+				1A44E3D31ECC4D600014825A /* CGCustomerSecondMenuCell.m in Sources */,
+				1A44E3CE1ECC4D600014825A /* CGCalendarCollectionViewCell.m in Sources */,
+				1A44E3D21ECC4D600014825A /* UIImage+Calendar.m in Sources */,
 				1A078B191EC0713600746B59 /* XMGDanmuView.m in Sources */,
 				1AB69DD81EC155D8008AD258 /* LameTool.m in Sources */,
 				1ACF3B4D1EBB277300669614 /* DQBannerView.m in Sources */,
@@ -676,23 +781,28 @@
 				1ACDEEC71EB068AB00E54C27 /* ViewController.m in Sources */,
 				1ACDEEE41EB086CC00E54C27 /* DQWaterFallLayout.m in Sources */,
 				1ACF3B531EBB277300669614 /* XMGRemoteResourceLoaderDelegate.m in Sources */,
+				1A44E3E61ECC4E040014825A /* ParentModel.m in Sources */,
 				1ACF3B521EBB277300669614 /* XMGRemotePlayer.m in Sources */,
 				1ACF3B5B1EBB287300669614 /* DQNavigationController.m in Sources */,
 				1ACDEEC41EB068AB00E54C27 /* AppDelegate.m in Sources */,
+				1A44E3D61ECC4D600014825A /* CGCustomerSencodMenuSectionView.m in Sources */,
 				1AB69DDC1EC155D8008AD258 /* DQMusicTool.m in Sources */,
 				1AC0E8CF1EB183E50043BEE6 /* DQPageCollectionView.m in Sources */,
 				1A0275A41EC01E9900A516A7 /* XMGSegmentBarConfig.m in Sources */,
 				1ACDEF031EB0883C00E54C27 /* MyTextField.m in Sources */,
+				1A44E3D01ECC4D600014825A /* CGCalendarView.m in Sources */,
 				1ACDEEC11EB068AB00E54C27 /* main.m in Sources */,
 				1AB69DC91EC14D19008AD258 /* CGExpressionTextView.m in Sources */,
 				1ACDEF111EB09A7E00E54C27 /* DQPageContentView.m in Sources */,
 				1ACDEF141EB09DA200E54C27 /* PageViewController.m in Sources */,
 				1ACDEF071EB0883C00E54C27 /* UIImageView+Extension.m in Sources */,
 				1AB69DDB1EC155D8008AD258 /* DQAudioTool.m in Sources */,
+				1A44E3CD1ECC4D600014825A /* CalendarButton.m in Sources */,
 				1A0275A51EC01E9900A516A7 /* XMGSementBarVC.m in Sources */,
 				1A078B1B1EC0713600746B59 /* XMGDanmuModel.m in Sources */,
 				1A0275A31EC01E9900A516A7 /* XMGSegmentBar.m in Sources */,
 				1ACDEF061EB0883C00E54C27 /* UIImage+Extension.m in Sources */,
+				1A44E3E81ECC4E250014825A /* CalendarAndCheckBoxViewController.m in Sources */,
 				1A0275A11EC01E9900A516A7 /* UIView+XMGSegmentBar.m in Sources */,
 				1A0275A21EC01E9900A516A7 /* XMGDownLoadListernMainVC.m in Sources */,
 				1ACDEF041EB0883C00E54C27 /* MyTextView.m in Sources */,
@@ -700,6 +810,7 @@
 				1ACDEF021EB0883C00E54C27 /* ImageCache.m in Sources */,
 				1ACF3B4B1EBB277300669614 /* DQBannerCell.m in Sources */,
 				1ACDEF171EB09EBF00E54C27 /* DQPageView.m in Sources */,
+				1A44E3D51ECC4D600014825A /* CGCustomerSencodMenu.m in Sources */,
 				1ACF3B4A1EBB277300669614 /* DQFileTool.m in Sources */,
 				1ACF3B511EBB277300669614 /* XMGRemoteAudioFile.m in Sources */,
 				1AC8A2F31EB9AB0100B09261 /* LiveViewController.m in Sources */,
@@ -708,6 +819,7 @@
 				1ACF3B5D1EBB287300669614 /* DQTabBarController.m in Sources */,
 				1ACDEF011EB0883C00E54C27 /* NSString+Extension.m in Sources */,
 				1ACF3B481EBB277300669614 /* DQDownLoader.m in Sources */,
+				1A44E3E51ECC4E040014825A /* ChildModel.m in Sources */,
 				1ACF3B5C1EBB287300669614 /* DQTabBar.m in Sources */,
 				1A078B181EC0713600746B59 /* CALayer+Aimate.m in Sources */,
 				1ACF3B501EBB277300669614 /* XMGAudioDownLoader.m in Sources */,
