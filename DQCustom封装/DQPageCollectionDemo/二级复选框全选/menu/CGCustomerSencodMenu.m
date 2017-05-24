@@ -348,11 +348,15 @@ static NSString * const defaultMenuCellID = @"defaultMenuCellID";
     if(!_parentModels)
     {
         _parentModels = [NSArray array];
-        if ([_dataSource respondsToSelector:@selector(menuOfParentModels:)]) {
-            _parentModels = [_dataSource menuOfParentModels:self];
+        
+    }
+    if ([_dataSource respondsToSelector:@selector(menuOfParentModels:)]) {
+        _parentModels = [_dataSource menuOfParentModels:self];
+        if (self.recoderArrowStatusDict.count == 0) {
             for (id<CGCustomerModelProtocol> model in  _parentModels) {
                 [self.recoderArrowStatusDict setObject:@0 forKey:@(model.uiniqueId)];
             }
+            
         }
     }
     return _parentModels;

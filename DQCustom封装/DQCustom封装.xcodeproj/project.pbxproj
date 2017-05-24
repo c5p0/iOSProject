@@ -30,6 +30,11 @@
 		1A44E3E51ECC4E040014825A /* ChildModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3E21ECC4E040014825A /* ChildModel.m */; };
 		1A44E3E61ECC4E040014825A /* ParentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3E41ECC4E040014825A /* ParentModel.m */; };
 		1A44E3E81ECC4E250014825A /* CalendarAndCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44E3E71ECC4E250014825A /* CalendarAndCheckBoxViewController.m */; };
+		1A92B0F01ED5697E00D1649A /* DQPublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92B0EF1ED5697E00D1649A /* DQPublishView.m */; };
+		1A92B0F31ED56C8600D1649A /* DQPublishTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92B0F21ED56C8600D1649A /* DQPublishTestViewController.m */; };
+		1A92B0F91ED56EBF00D1649A /* DQPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92B0F81ED56EBF00D1649A /* DQPlaceholderTextView.m */; };
+		1A92B0FD1ED5758400D1649A /* DQPublishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92B0FB1ED5758400D1649A /* DQPublishCell.m */; };
+		1A92B0FE1ED5758400D1649A /* DQPublishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A92B0FC1ED5758400D1649A /* DQPublishCell.xib */; };
 		1AB69DC91EC14D19008AD258 /* CGExpressionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */; };
 		1AB69DD81EC155D8008AD258 /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB69DCF1EC155D8008AD258 /* LameTool.m */; };
 		1AB69DD91EC155D8008AD258 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB69DD01EC155D8008AD258 /* libmp3lame.a */; };
@@ -127,6 +132,15 @@
 		1A44E3E31ECC4E040014825A /* ParentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentModel.h; sourceTree = "<group>"; };
 		1A44E3E41ECC4E040014825A /* ParentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentModel.m; sourceTree = "<group>"; };
 		1A44E3E71ECC4E250014825A /* CalendarAndCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarAndCheckBoxViewController.m; sourceTree = "<group>"; };
+		1A92B0EE1ED5697E00D1649A /* DQPublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPublishView.h; sourceTree = "<group>"; };
+		1A92B0EF1ED5697E00D1649A /* DQPublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPublishView.m; sourceTree = "<group>"; };
+		1A92B0F11ED56C8600D1649A /* DQPublishTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPublishTestViewController.h; sourceTree = "<group>"; };
+		1A92B0F21ED56C8600D1649A /* DQPublishTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPublishTestViewController.m; sourceTree = "<group>"; };
+		1A92B0F71ED56EBF00D1649A /* DQPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPlaceholderTextView.h; sourceTree = "<group>"; };
+		1A92B0F81ED56EBF00D1649A /* DQPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPlaceholderTextView.m; sourceTree = "<group>"; };
+		1A92B0FA1ED5758400D1649A /* DQPublishCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPublishCell.h; sourceTree = "<group>"; };
+		1A92B0FB1ED5758400D1649A /* DQPublishCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPublishCell.m; sourceTree = "<group>"; };
+		1A92B0FC1ED5758400D1649A /* DQPublishCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DQPublishCell.xib; sourceTree = "<group>"; };
 		1AB69DC71EC14D19008AD258 /* CGExpressionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGExpressionTextView.h; sourceTree = "<group>"; };
 		1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGExpressionTextView.m; sourceTree = "<group>"; };
 		1AB69DCD1EC155D8008AD258 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
@@ -335,6 +349,22 @@
 			path = menu;
 			sourceTree = "<group>";
 		};
+		1A92B0ED1ED568BE00D1649A /* 发布界面9宫格图片添加封装 */ = {
+			isa = PBXGroup;
+			children = (
+				1A92B0EE1ED5697E00D1649A /* DQPublishView.h */,
+				1A92B0EF1ED5697E00D1649A /* DQPublishView.m */,
+				1A92B0F71ED56EBF00D1649A /* DQPlaceholderTextView.h */,
+				1A92B0F81ED56EBF00D1649A /* DQPlaceholderTextView.m */,
+				1A92B0FA1ED5758400D1649A /* DQPublishCell.h */,
+				1A92B0FB1ED5758400D1649A /* DQPublishCell.m */,
+				1A92B0FC1ED5758400D1649A /* DQPublishCell.xib */,
+				1A92B0F11ED56C8600D1649A /* DQPublishTestViewController.h */,
+				1A92B0F21ED56C8600D1649A /* DQPublishTestViewController.m */,
+			);
+			path = "发布界面9宫格图片添加封装";
+			sourceTree = "<group>";
+		};
 		1AB69DC61EC14D19008AD258 /* 表情文字输入框封装 */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,6 +438,7 @@
 		1ACDEEBE1EB068AB00E54C27 /* DQPageCollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1A92B0ED1ED568BE00D1649A /* 发布界面9宫格图片添加封装 */,
 				1A44E3B51ECC4D600014825A /* 日历 */,
 				1A44E3C21ECC4D600014825A /* 二级复选框全选 */,
 				1AB69DCA1EC155D8008AD258 /* 录音压缩播放封装 */,
@@ -703,6 +734,7 @@
 				1ACDEECC1EB068AC00E54C27 /* Assets.xcassets in Resources */,
 				1ACF3B4E1EBB277300669614 /* DQBannerView.xib in Resources */,
 				1ACDEECA1EB068AB00E54C27 /* Main.storyboard in Resources */,
+				1A92B0FE1ED5758400D1649A /* DQPublishCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,7 +794,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACDEF081EB0883C00E54C27 /* UIView+Extension.m in Sources */,
+				1A92B0F01ED5697E00D1649A /* DQPublishView.m in Sources */,
 				1A44E3D11ECC4D600014825A /* NSDate+Calculate.m in Sources */,
+				1A92B0F31ED56C8600D1649A /* DQPublishTestViewController.m in Sources */,
 				1A44E3D31ECC4D600014825A /* CGCustomerSecondMenuCell.m in Sources */,
 				1A44E3CE1ECC4D600014825A /* CGCalendarCollectionViewCell.m in Sources */,
 				1A44E3D21ECC4D600014825A /* UIImage+Calendar.m in Sources */,
@@ -770,6 +804,7 @@
 				1AB69DD81EC155D8008AD258 /* LameTool.m in Sources */,
 				1ACF3B4D1EBB277300669614 /* DQBannerView.m in Sources */,
 				1AC8A2F71EB9B36B00B09261 /* GlassViewController.m in Sources */,
+				1A92B0F91ED56EBF00D1649A /* DQPlaceholderTextView.m in Sources */,
 				1ACDEF101EB09A7E00E54C27 /* DQPageTitleView.m in Sources */,
 				1ACDEF001EB0883C00E54C27 /* NSDate+Extension.m in Sources */,
 				1ACF3B4F1EBB277300669614 /* NSURL+SZ.m in Sources */,
@@ -810,6 +845,7 @@
 				1ACDEF021EB0883C00E54C27 /* ImageCache.m in Sources */,
 				1ACF3B4B1EBB277300669614 /* DQBannerCell.m in Sources */,
 				1ACDEF171EB09EBF00E54C27 /* DQPageView.m in Sources */,
+				1A92B0FD1ED5758400D1649A /* DQPublishCell.m in Sources */,
 				1A44E3D51ECC4D600014825A /* CGCustomerSencodMenu.m in Sources */,
 				1ACF3B4A1EBB277300669614 /* DQFileTool.m in Sources */,
 				1ACF3B511EBB277300669614 /* XMGRemoteAudioFile.m in Sources */,
