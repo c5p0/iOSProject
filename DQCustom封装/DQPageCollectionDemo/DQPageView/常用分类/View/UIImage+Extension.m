@@ -142,5 +142,52 @@ void ProviderReleaseData (void *info, const void *data, size_t size){
     free((void*)data);
 }
 
+-(UIImage *)resizeImage:(UIImage *)image
+{
+    // 原始宽高
+    float actualHeight = image.size.height;
+    float actualWidth = image.size.width;
+    // 允许设置最大宽高
+    float maxHeight = 300.0;
+    float maxWidth = 400.0;
+    // 实际宽高比
+    float imgRatio = actualWidth/actualHeight;
+    // 最大宽高比
+    float maxRatio = maxWidth/maxHeight;
+    // 压缩质量
+    float compressionQuality = 0.5;//50 percent compression
+    // 如果实际宽或者高大于最大的宽高进行压缩
+    if (actualHeight > maxHeight || actualWidth > maxWidth)
+    {
+        if(imgRatio < maxRatio)
+        {
+            //adjust width according to maxHeight
+            imgRatio = maxHeight / actualHeight;
+            actualWidth = imgRatio * actualWidth;
+            actualHeight = maxHeight;
+        }
+        else if(imgRatio > maxRatio)
+        {
+            //adjust height according to maxWidth
+            imgRatio = maxWidth / actualWidth;
+            actualHeight = imgRatio * actualHeight;
+            actualWidth = maxWidth;
+        }
+        else
+        {
+            actualHeight = maxHeight;
+            actualWidth = maxWidth;
+        }
+    }
+    
+    CGRect rect = CGRectMake(0.0, 0.0, actualWidth, actualHeight);
+    UIGraphicsBeginImageContext(rect.size);
+    [image drawInRect:rect];
+    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+    NSData *imageData = UIImageJPEGRepresentation(img, compressionQuality);
+    UIGraphicsEndImageContext();
+    return [UIImage imageWithData:imageData];
+    
+}
 
 @end

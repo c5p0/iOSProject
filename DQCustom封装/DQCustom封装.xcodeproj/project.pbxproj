@@ -35,6 +35,13 @@
 		1A92B0F91ED56EBF00D1649A /* DQPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92B0F81ED56EBF00D1649A /* DQPlaceholderTextView.m */; };
 		1A92B0FD1ED5758400D1649A /* DQPublishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92B0FB1ED5758400D1649A /* DQPublishCell.m */; };
 		1A92B0FE1ED5758400D1649A /* DQPublishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A92B0FC1ED5758400D1649A /* DQPublishCell.xib */; };
+		1AB551311F189C47004E3264 /* CGDynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB551281F189C47004E3264 /* CGDynamicDelegate.m */; };
+		1AB551321F189C47004E3264 /* CGLimitedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5512A1F189C47004E3264 /* CGLimitedTextField.m */; };
+		1AB551331F189C47004E3264 /* CGLimitedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5512C1F189C47004E3264 /* CGLimitedTextView.m */; };
+		1AB551341F189C47004E3264 /* CGMatchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5512E1F189C47004E3264 /* CGMatchConst.m */; };
+		1AB551351F189C47004E3264 /* CGMatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB551301F189C47004E3264 /* CGMatchManager.m */; };
+		1AB551381F189D73004E3264 /* RuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB551371F189D73004E3264 /* RuntimeTool.m */; };
+		1AB5513B1F18A3C0004E3264 /* encryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5513A1F18A3C0004E3264 /* encryptTool.m */; };
 		1AB69DC91EC14D19008AD258 /* CGExpressionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */; };
 		1AB69DD81EC155D8008AD258 /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB69DCF1EC155D8008AD258 /* LameTool.m */; };
 		1AB69DD91EC155D8008AD258 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB69DD01EC155D8008AD258 /* libmp3lame.a */; };
@@ -141,6 +148,20 @@
 		1A92B0FA1ED5758400D1649A /* DQPublishCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPublishCell.h; sourceTree = "<group>"; };
 		1A92B0FB1ED5758400D1649A /* DQPublishCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPublishCell.m; sourceTree = "<group>"; };
 		1A92B0FC1ED5758400D1649A /* DQPublishCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DQPublishCell.xib; sourceTree = "<group>"; };
+		1AB551271F189C47004E3264 /* CGDynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDynamicDelegate.h; sourceTree = "<group>"; };
+		1AB551281F189C47004E3264 /* CGDynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDynamicDelegate.m; sourceTree = "<group>"; };
+		1AB551291F189C47004E3264 /* CGLimitedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLimitedTextField.h; sourceTree = "<group>"; };
+		1AB5512A1F189C47004E3264 /* CGLimitedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLimitedTextField.m; sourceTree = "<group>"; };
+		1AB5512B1F189C47004E3264 /* CGLimitedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLimitedTextView.h; sourceTree = "<group>"; };
+		1AB5512C1F189C47004E3264 /* CGLimitedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLimitedTextView.m; sourceTree = "<group>"; };
+		1AB5512D1F189C47004E3264 /* CGMatchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMatchConst.h; sourceTree = "<group>"; };
+		1AB5512E1F189C47004E3264 /* CGMatchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGMatchConst.m; sourceTree = "<group>"; };
+		1AB5512F1F189C47004E3264 /* CGMatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMatchManager.h; sourceTree = "<group>"; };
+		1AB551301F189C47004E3264 /* CGMatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGMatchManager.m; sourceTree = "<group>"; };
+		1AB551361F189D73004E3264 /* RuntimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeTool.h; sourceTree = "<group>"; };
+		1AB551371F189D73004E3264 /* RuntimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeTool.m; sourceTree = "<group>"; };
+		1AB551391F18A3C0004E3264 /* encryptTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encryptTool.h; sourceTree = "<group>"; };
+		1AB5513A1F18A3C0004E3264 /* encryptTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = encryptTool.m; sourceTree = "<group>"; };
 		1AB69DC71EC14D19008AD258 /* CGExpressionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGExpressionTextView.h; sourceTree = "<group>"; };
 		1AB69DC81EC14D19008AD258 /* CGExpressionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGExpressionTextView.m; sourceTree = "<group>"; };
 		1AB69DCD1EC155D8008AD258 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
@@ -365,6 +386,23 @@
 			path = "发布界面9宫格图片添加封装";
 			sourceTree = "<group>";
 		};
+		1AB551261F189C47004E3264 /* InputKit */ = {
+			isa = PBXGroup;
+			children = (
+				1AB551271F189C47004E3264 /* CGDynamicDelegate.h */,
+				1AB551281F189C47004E3264 /* CGDynamicDelegate.m */,
+				1AB551291F189C47004E3264 /* CGLimitedTextField.h */,
+				1AB5512A1F189C47004E3264 /* CGLimitedTextField.m */,
+				1AB5512B1F189C47004E3264 /* CGLimitedTextView.h */,
+				1AB5512C1F189C47004E3264 /* CGLimitedTextView.m */,
+				1AB5512D1F189C47004E3264 /* CGMatchConst.h */,
+				1AB5512E1F189C47004E3264 /* CGMatchConst.m */,
+				1AB5512F1F189C47004E3264 /* CGMatchManager.h */,
+				1AB551301F189C47004E3264 /* CGMatchManager.m */,
+			);
+			path = InputKit;
+			sourceTree = "<group>";
+		};
 		1AB69DC61EC14D19008AD258 /* 表情文字输入框封装 */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +476,8 @@
 		1ACDEEBE1EB068AB00E54C27 /* DQPageCollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1AB551261F189C47004E3264 /* InputKit */,
+				1ACDEEE61EB087E100E54C27 /* 常用分类 */,
 				1A92B0ED1ED568BE00D1649A /* 发布界面9宫格图片添加封装 */,
 				1A44E3B51ECC4D600014825A /* 日历 */,
 				1A44E3C21ECC4D600014825A /* 二级复选框全选 */,
@@ -477,7 +517,6 @@
 		1ACDEEDA1EB06D5600E54C27 /* DQPageView */ = {
 			isa = PBXGroup;
 			children = (
-				1ACDEEE61EB087E100E54C27 /* 常用分类 */,
 				1ACDEEE51EB087C000E54C27 /* 表情和礼物键盘封装 */,
 				1ACDEEE11EB086CC00E54C27 /* 瀑布流 */,
 			);
@@ -520,7 +559,8 @@
 				1ACDEEEF1EB0883C00E54C27 /* Tools */,
 				1ACDEEF61EB0883C00E54C27 /* View */,
 			);
-			path = "常用分类";
+			name = "常用分类";
+			path = "DQPageView/常用分类";
 			sourceTree = "<group>";
 		};
 		1ACDEEE71EB0883C00E54C27 /* CustomerView */ = {
@@ -552,6 +592,10 @@
 				1ACDEEF31EB0883C00E54C27 /* MyTextField.m */,
 				1ACDEEF41EB0883C00E54C27 /* MyTextView.h */,
 				1ACDEEF51EB0883C00E54C27 /* MyTextView.m */,
+				1AB551361F189D73004E3264 /* RuntimeTool.h */,
+				1AB551371F189D73004E3264 /* RuntimeTool.m */,
+				1AB551391F18A3C0004E3264 /* encryptTool.h */,
+				1AB5513A1F18A3C0004E3264 /* encryptTool.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -800,6 +844,7 @@
 				1A44E3D31ECC4D600014825A /* CGCustomerSecondMenuCell.m in Sources */,
 				1A44E3CE1ECC4D600014825A /* CGCalendarCollectionViewCell.m in Sources */,
 				1A44E3D21ECC4D600014825A /* UIImage+Calendar.m in Sources */,
+				1AB551331F189C47004E3264 /* CGLimitedTextView.m in Sources */,
 				1A078B191EC0713600746B59 /* XMGDanmuView.m in Sources */,
 				1AB69DD81EC155D8008AD258 /* LameTool.m in Sources */,
 				1ACF3B4D1EBB277300669614 /* DQBannerView.m in Sources */,
@@ -817,12 +862,14 @@
 				1ACDEEE41EB086CC00E54C27 /* DQWaterFallLayout.m in Sources */,
 				1ACF3B531EBB277300669614 /* XMGRemoteResourceLoaderDelegate.m in Sources */,
 				1A44E3E61ECC4E040014825A /* ParentModel.m in Sources */,
+				1AB551341F189C47004E3264 /* CGMatchConst.m in Sources */,
 				1ACF3B521EBB277300669614 /* XMGRemotePlayer.m in Sources */,
 				1ACF3B5B1EBB287300669614 /* DQNavigationController.m in Sources */,
 				1ACDEEC41EB068AB00E54C27 /* AppDelegate.m in Sources */,
 				1A44E3D61ECC4D600014825A /* CGCustomerSencodMenuSectionView.m in Sources */,
 				1AB69DDC1EC155D8008AD258 /* DQMusicTool.m in Sources */,
 				1AC0E8CF1EB183E50043BEE6 /* DQPageCollectionView.m in Sources */,
+				1AB551321F189C47004E3264 /* CGLimitedTextField.m in Sources */,
 				1A0275A41EC01E9900A516A7 /* XMGSegmentBarConfig.m in Sources */,
 				1ACDEF031EB0883C00E54C27 /* MyTextField.m in Sources */,
 				1A44E3D01ECC4D600014825A /* CGCalendarView.m in Sources */,
@@ -834,6 +881,7 @@
 				1AB69DDB1EC155D8008AD258 /* DQAudioTool.m in Sources */,
 				1A44E3CD1ECC4D600014825A /* CalendarButton.m in Sources */,
 				1A0275A51EC01E9900A516A7 /* XMGSementBarVC.m in Sources */,
+				1AB5513B1F18A3C0004E3264 /* encryptTool.m in Sources */,
 				1A078B1B1EC0713600746B59 /* XMGDanmuModel.m in Sources */,
 				1A0275A31EC01E9900A516A7 /* XMGSegmentBar.m in Sources */,
 				1ACDEF061EB0883C00E54C27 /* UIImage+Extension.m in Sources */,
@@ -848,6 +896,7 @@
 				1A92B0FD1ED5758400D1649A /* DQPublishCell.m in Sources */,
 				1A44E3D51ECC4D600014825A /* CGCustomerSencodMenu.m in Sources */,
 				1ACF3B4A1EBB277300669614 /* DQFileTool.m in Sources */,
+				1AB551381F189D73004E3264 /* RuntimeTool.m in Sources */,
 				1ACF3B511EBB277300669614 /* XMGRemoteAudioFile.m in Sources */,
 				1AC8A2F31EB9AB0100B09261 /* LiveViewController.m in Sources */,
 				1AC0E8D21EB185180043BEE6 /* DQPageCollectionLayout.m in Sources */,
@@ -857,7 +906,9 @@
 				1ACF3B481EBB277300669614 /* DQDownLoader.m in Sources */,
 				1A44E3E51ECC4E040014825A /* ChildModel.m in Sources */,
 				1ACF3B5C1EBB287300669614 /* DQTabBar.m in Sources */,
+				1AB551311F189C47004E3264 /* CGDynamicDelegate.m in Sources */,
 				1A078B181EC0713600746B59 /* CALayer+Aimate.m in Sources */,
+				1AB551351F189C47004E3264 /* CGMatchManager.m in Sources */,
 				1ACF3B501EBB277300669614 /* XMGAudioDownLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

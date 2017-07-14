@@ -30,4 +30,12 @@
 + (UIImage *)QRCodeForString:(NSString *)qrString size:(CGFloat)size;
 + (UIImage *)QRCodeForString:(NSString *)qrString size:(CGFloat)size fillColor:(UIColor *)fillColor;
 
+/**
+ 上传图片太大，压缩图片
+
+ @param image 原始图片
+ @return 压缩后的图片
+ */
+-(UIImage *)resizeImage:(UIImage *)image;
+
 @end

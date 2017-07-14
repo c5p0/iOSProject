@@ -187,4 +187,23 @@
     return result;
     
 }
+
+- (NSString *)trim
+{
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+}
+- (NSString *)trimEnhance
+{
+    NSString *str = self;
+    str = [str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]; //去除掉首尾的空白字符和换行字符
+    str = [str stringByReplacingOccurrencesOfString:@"\r" withString:@""];
+    str = [str stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+    return str;
+}
+
+- (NSString *)getNumberFromStr:(NSString *)str
+{
+    NSCharacterSet *nonDigitCharacterSet = [[NSCharacterSet decimalDigitCharacterSet] invertedSet];
+    return [[str componentsSeparatedByCharactersInSet:nonDigitCharacterSet] componentsJoinedByString:@""];
+}
 @end

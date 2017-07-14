@@ -75,12 +75,31 @@
  *  @return 计算之后的size
  */
 - (CGSize)sizeWithFont:(UIFont *)font maxW:(CGFloat)maxW;
-
 /**
  *  计算当前文件\文件夹的内容大小
  */
 - (NSInteger)fileSize;
 
+/**
+ MD5加密
+ @return 加密后的字符串
+ */
 - (NSString *)md5;
 
+/**
+ 去除字符串左右两边空格
+ */
+- (NSString *)trim;
+
+/**
+ 去除字符串左右两边空格和回车换行
+ @return 去除后的字符串
+ */
+- (NSString *)trimEnhance;
+/**
+ 获取字符串中的数字
+ @param str 原始字符串
+ @return 纯数字字符串
+ */
+- (NSString *)getNumberFromStr:(NSString *)str;
 @end
