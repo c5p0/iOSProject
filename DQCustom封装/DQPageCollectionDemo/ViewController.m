@@ -30,6 +30,7 @@ NSString * cellIndetifer = @"cellIndetifer";
     [self.view addSubview:collectionView];
     [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellIndetifer];
     
+
 }
 
 

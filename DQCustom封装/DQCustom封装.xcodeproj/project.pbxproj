@@ -35,6 +35,7 @@
 		1A92B0F91ED56EBF00D1649A /* DQPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92B0F81ED56EBF00D1649A /* DQPlaceholderTextView.m */; };
 		1A92B0FD1ED5758400D1649A /* DQPublishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92B0FB1ED5758400D1649A /* DQPublishCell.m */; };
 		1A92B0FE1ED5758400D1649A /* DQPublishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A92B0FC1ED5758400D1649A /* DQPublishCell.xib */; };
+		1AB225F31F19FD4300B4FC9C /* DQActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB225F21F19FD4300B4FC9C /* DQActionSheetView.m */; };
 		1AB551311F189C47004E3264 /* CGDynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB551281F189C47004E3264 /* CGDynamicDelegate.m */; };
 		1AB551321F189C47004E3264 /* CGLimitedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5512A1F189C47004E3264 /* CGLimitedTextField.m */; };
 		1AB551331F189C47004E3264 /* CGLimitedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5512C1F189C47004E3264 /* CGLimitedTextView.m */; };
@@ -148,6 +149,8 @@
 		1A92B0FA1ED5758400D1649A /* DQPublishCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPublishCell.h; sourceTree = "<group>"; };
 		1A92B0FB1ED5758400D1649A /* DQPublishCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPublishCell.m; sourceTree = "<group>"; };
 		1A92B0FC1ED5758400D1649A /* DQPublishCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DQPublishCell.xib; sourceTree = "<group>"; };
+		1AB225F11F19FD4300B4FC9C /* DQActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQActionSheetView.h; sourceTree = "<group>"; };
+		1AB225F21F19FD4300B4FC9C /* DQActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQActionSheetView.m; sourceTree = "<group>"; };
 		1AB551271F189C47004E3264 /* CGDynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDynamicDelegate.h; sourceTree = "<group>"; };
 		1AB551281F189C47004E3264 /* CGDynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDynamicDelegate.m; sourceTree = "<group>"; };
 		1AB551291F189C47004E3264 /* CGLimitedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLimitedTextField.h; sourceTree = "<group>"; };
@@ -386,6 +389,23 @@
 			path = "发布界面9宫格图片添加封装";
 			sourceTree = "<group>";
 		};
+		1AB225EF1F19FD1F00B4FC9C /* 自定义的View */ = {
+			isa = PBXGroup;
+			children = (
+				1AB225F01F19FD1F00B4FC9C /* 自定义ActionSheetView */,
+			);
+			path = "自定义的View";
+			sourceTree = "<group>";
+		};
+		1AB225F01F19FD1F00B4FC9C /* 自定义ActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				1AB225F11F19FD4300B4FC9C /* DQActionSheetView.h */,
+				1AB225F21F19FD4300B4FC9C /* DQActionSheetView.m */,
+			);
+			path = "自定义ActionSheetView";
+			sourceTree = "<group>";
+		};
 		1AB551261F189C47004E3264 /* InputKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,6 +496,7 @@
 		1ACDEEBE1EB068AB00E54C27 /* DQPageCollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1AB225EF1F19FD1F00B4FC9C /* 自定义的View */,
 				1AB551261F189C47004E3264 /* InputKit */,
 				1ACDEEE61EB087E100E54C27 /* 常用分类 */,
 				1A92B0ED1ED568BE00D1649A /* 发布界面9宫格图片添加封装 */,
@@ -844,6 +865,7 @@
 				1A44E3D31ECC4D600014825A /* CGCustomerSecondMenuCell.m in Sources */,
 				1A44E3CE1ECC4D600014825A /* CGCalendarCollectionViewCell.m in Sources */,
 				1A44E3D21ECC4D600014825A /* UIImage+Calendar.m in Sources */,
+				1AB225F31F19FD4300B4FC9C /* DQActionSheetView.m in Sources */,
 				1AB551331F189C47004E3264 /* CGLimitedTextView.m in Sources */,
 				1A078B191EC0713600746B59 /* XMGDanmuView.m in Sources */,
 				1AB69DD81EC155D8008AD258 /* LameTool.m in Sources */,
