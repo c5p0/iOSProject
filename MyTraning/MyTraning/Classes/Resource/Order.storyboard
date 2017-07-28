@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ghv-Yn-vuZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--我的订单-->
+        <scene sceneID="QJ6-xa-qP9">
+            <objects>
+                <viewController id="sfK-zf-RMI" customClass="XQOrderViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ne2-Gz-8cv"/>
+                        <viewControllerLayoutGuide type="bottom" id="UOy-oq-35B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mb0-RQ-p6J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="我的订单" id="2Se-lU-O3B"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hW8-8d-jT1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1188" y="462"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FyT-Hd-8qa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ghv-Yn-vuZ" customClass="XQNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="dingdan" selectedImage="dingdan1" id="XQ2-31-iw8"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b1o-kf-bGu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sfK-zf-RMI" kind="relationship" relationship="rootViewController" id="IOF-OU-rF0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XTy-mj-6c7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="289" y="434"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dingdan" width="60" height="49"/>
+        <image name="dingdan1" width="60" height="49"/>
+    </resources>
+</document>

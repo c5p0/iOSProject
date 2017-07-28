@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>zpjlquanbuayi</string>
+		<key>title</key>
+		<string>全部阿姨</string>
+		<key>description</key>
+		<string>查看全部应聘简历</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpjlwodeayi</string>
+		<key>title</key>
+		<string>我的阿姨</string>
+		<key>description</key>
+		<string>查看雇佣过的阿姨</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpjlzhaopinlishi</string>
+		<key>title</key>
+		<string>招聘历史</string>
+		<key>description</key>
+		<string>重新快速发布招聘</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpjlpingjialishi</string>
+		<key>title</key>
+		<string>评价历史</string>
+		<key>description</key>
+		<string>查看以及修改评论</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpjlshoucang</string>
+		<key>title</key>
+		<string>收藏通讯</string>
+		<key>description</key>
+		<string>查看收藏的阿姨</string>
+	</dict>
+</array>
+</plist>

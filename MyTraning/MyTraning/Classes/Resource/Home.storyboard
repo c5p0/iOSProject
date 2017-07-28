@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kQN-ag-aws">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Jou-Zw-djb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kQN-ag-aws" customClass="XQNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="shouye" selectedImage="shouye1" id="Yg0-hk-Yhi"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BrJ-Qy-EcL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QLj-KO-y9o" kind="relationship" relationship="rootViewController" id="X1x-G8-7Ii"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JbZ-8g-YzV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="-968"/>
+        </scene>
+        <!--家政-->
+        <scene sceneID="isg-DI-D0m">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-BXw-Tw-nnD" id="QLj-KO-y9o" customClass="XQHomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kek-07-FHn"/>
+                        <viewControllerLayoutGuide type="bottom" id="QXw-BE-1e8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WVs-FA-ll9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rCt-0L-KVs">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DLA-xb-2V1">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="tBE-aU-JHS">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="QLj-KO-y9o" id="Rb0-pY-48m"/>
+                                    <outlet property="delegate" destination="QLj-KO-y9o" id="3n0-Ii-IGu"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="rCt-0L-KVs" firstAttribute="top" secondItem="Kek-07-FHn" secondAttribute="bottom" id="a4V-zS-cot"/>
+                            <constraint firstItem="QXw-BE-1e8" firstAttribute="top" secondItem="rCt-0L-KVs" secondAttribute="bottom" id="q9g-qj-DK6"/>
+                            <constraint firstAttribute="trailing" secondItem="rCt-0L-KVs" secondAttribute="trailing" id="tn1-Fw-26l"/>
+                            <constraint firstItem="rCt-0L-KVs" firstAttribute="leading" secondItem="WVs-FA-ll9" secondAttribute="leading" id="uJb-kO-rqH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="家政" id="P7D-6V-f0S"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="collectionView" destination="rCt-0L-KVs" id="8nE-00-DLt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rON-Ot-i7u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1096.8" y="-976.91154422788611"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shouye" width="60" height="49"/>
+        <image name="shouye1" width="60" height="49"/>
+    </resources>
+</document>

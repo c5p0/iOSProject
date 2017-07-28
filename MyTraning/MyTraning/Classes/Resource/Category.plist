@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>zpls_yusao</string>
+		<key>title</key>
+		<string>月嫂</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpls_yuersao</string>
+		<key>title</key>
+		<string>育儿嫂</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpls_buzhujiabaomu</string>
+		<key>title</key>
+		<string>不住家保姆</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpls_zhujiabaomu</string>
+		<key>title</key>
+		<string>住家保姆</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpls_laorenpeihu</string>
+		<key>title</key>
+		<string>老人陪护</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpls_binghuanhuli</string>
+		<key>title</key>
+		<string>病患陪护</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>zpls_changqixiaoshigong</string>
+		<key>title</key>
+		<string>长期小时工</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>xiaoshigong</string>
+		<key>title</key>
+		<string>小时工</string>
+	</dict>
+</array>
+</plist>
