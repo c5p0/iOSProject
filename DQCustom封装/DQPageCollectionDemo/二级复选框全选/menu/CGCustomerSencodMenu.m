@@ -76,6 +76,7 @@ static NSString * const defaultMenuCellID = @"defaultMenuCellID";
 {
     CGCustomerSencodMenuSectionView * sectionView = [CGCustomerSencodMenuSectionView initHeaderView];
     sectionView.countLabel.hidden = YES;
+    sectionView.isShowCheckBox = self.isShowCheckBox;
      __weak typeof(self) wakeSelf = self;
     if (self.isShowAll && section == 0) {
         BOOL isSelected = [self isSelectedAll];
@@ -86,6 +87,7 @@ static NSString * const defaultMenuCellID = @"defaultMenuCellID";
         sectionView.section = section;
     }else
     {
+        
         section = self.isShowAll ? section - 1 : section;
         id<CGCustomerModelProtocol> model = self.parentModels[section];
         sectionView.model = model;
@@ -104,6 +106,15 @@ static NSString * const defaultMenuCellID = @"defaultMenuCellID";
         }else
         {
             sectionView.checkBtn.selected = NO;
+        }
+        // 进入回显
+        NSArray * childModels = [self.dataSource menuChildModels:self section:section];
+        for (id<CGCustomerModelProtocol> model in childModels) {
+            if ([self.selectedChildArray containsObject:@(model.uiniqueId)]) {
+                // 处理上级以及全选复选框操作
+                sectionView.checkBtn.selected = YES;
+                break;
+            }
         }
     }
     
@@ -149,6 +160,7 @@ static NSString * const defaultMenuCellID = @"defaultMenuCellID";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     CGCustomerSecondMenuCell * cell = [tableView dequeueReusableCellWithIdentifier:defaultMenuCellID forIndexPath:indexPath];
+    cell.isShowCheckBox = self.isShowCheckBox;
     NSInteger section = self.isShowAll ? indexPath.section -1 : indexPath.section;
     NSArray * childModels = [self.dataSource menuChildModels:self section:section];
     id<CGCustomerModelProtocol> model = childModels[indexPath.row];
@@ -161,10 +173,16 @@ static NSString * const defaultMenuCellID = @"defaultMenuCellID";
         cell.checkBtn.selected = NO;
     }
     // 隐藏最后一条数据滚动线
+    cell.roundCornerType = KKRoundCornerCellTypeDefault;
     if (childModels.count == indexPath.row + 1) {
         cell.scrollLine.hidden = YES;
+        if (self.isLastCellCorner) {
+            cell.roundCornerType = KKRoundCornerCellTypeBottom;
+        }
+
     }else{
         cell.scrollLine.hidden = NO;
+        cell.roundCornerType = KKRoundCornerCellTypeDefault;
     }
     // 处理复选框点击事件
     cell.checkBoxBlock = ^(id<CGCustomerModelProtocol> model, BOOL isChecked) {
@@ -192,7 +210,7 @@ static NSString * const defaultMenuCellID = @"defaultMenuCellID";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
-    CGFloat defaltSectionFooterH = 5;
+    CGFloat defaltSectionFooterH = 2;
     if ([self.dataSource respondsToSelector:@selector(menuView:heightForFooterInSection:)]) {
         defaltSectionFooterH = [self.delegate menuView:tableView heightForFooterInSection:section];
     }
@@ -220,7 +238,9 @@ static NSString * const defaultMenuCellID = @"defaultMenuCellID";
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.tableView.rowHeight = 70;
+    self.tableView.backgroundColor = [UIColor clearColor];
     self.isShowAll = YES; // 默认显示全选
+    self.isShowCheckBox = YES;
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([CGCustomerSecondMenuCell class]) bundle:nil] forCellReuseIdentifier:defaultMenuCellID];
     [self addSubview:self.tableView];
 }
@@ -340,6 +360,17 @@ static NSString * const defaultMenuCellID = @"defaultMenuCellID";
 - (void)setTableHeaderView:(UIView *)headView
 {
     self.tableView.tableHeaderView = headView;
+}
+
+- (void)setSelectedIds:(NSMutableArray *)selectedIds
+{
+    _selectedIds = selectedIds;
+    for (NSNumber * uniqueId in selectedIds) {
+        if (![self.selectedChildArray containsObject:uniqueId]) {
+            [self.selectedChildArray addObject:uniqueId];
+        }
+    }
+    
 }
 
 #pragma mark - 懒加载

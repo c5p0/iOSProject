@@ -22,6 +22,7 @@ typedef void(^ArrowBtnClick) (NSInteger uiqueId);
 @property (nonatomic,strong) id<CGCustomerModelProtocol> model;
 @property (weak, nonatomic) IBOutlet UILabel *countLabel;
 @property (nonatomic,assign) NSInteger section;
+@property (nonatomic,assign) BOOL isShowCheckBox;
 
 - (void)handleCheckBtn:(CheckBoxClick)block;
 - (void)handleArrowBtn:(ArrowBtnClick)block;

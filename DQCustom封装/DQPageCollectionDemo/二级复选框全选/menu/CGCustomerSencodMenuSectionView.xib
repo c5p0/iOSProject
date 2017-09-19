@@ -130,9 +130,11 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="arrowIV" destination="yGn-9D-giV" id="90s-Rm-t2i"/>
+                <outlet property="checkBoxWConst" destination="7Wa-QP-22Q" id="ZPC-0X-Qkb"/>
                 <outlet property="checkBtn" destination="o1P-u8-DO9" id="M9J-tW-8GZ"/>
                 <outlet property="countLabel" destination="t4o-tp-dWf" id="7lD-Av-CIs"/>
                 <outlet property="gradeLable" destination="yEa-VT-N2V" id="k93-iK-XSu"/>
+                <outlet property="leftMarginConst" destination="Owv-Nb-j1G" id="5Fq-8C-00z"/>
             </connections>
             <point key="canvasLocation" x="332" y="168"/>
         </view>

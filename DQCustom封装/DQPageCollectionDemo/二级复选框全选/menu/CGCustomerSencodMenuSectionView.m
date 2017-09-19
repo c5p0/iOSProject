@@ -9,6 +9,9 @@
 #import "CGCustomerSencodMenuSectionView.h"
 @interface CGCustomerSencodMenuSectionView()
 @property (nonatomic,assign) BOOL isopen;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *checkBoxWConst;
+// 默认 15
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *leftMarginConst;
 @end
 @implementation CGCustomerSencodMenuSectionView
 
@@ -35,6 +38,17 @@
     }
 }
 
+- (void)setIsShowCheckBox:(BOOL)isShowCheckBox
+{
+    _isShowCheckBox = isShowCheckBox;
+    if (isShowCheckBox) {
+        self.checkBoxWConst.constant = 15;
+        self.leftMarginConst.constant = 15;
+    }else{
+        self.checkBoxWConst.constant = 0;
+        self.leftMarginConst.constant = 0;
+    }
+}
 - (void)handleCheckBtn:(CheckBoxClick)block
 {
     self.checkBoxBlock = block;

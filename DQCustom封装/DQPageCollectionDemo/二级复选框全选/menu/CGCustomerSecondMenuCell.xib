@@ -19,7 +19,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kvM-hk-lb9">
-                        <rect key="frame" x="45" y="0.0" width="275" height="69"/>
+                        <rect key="frame" x="40" y="0.0" width="280" height="69"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0x-Rt-epX">
                                 <rect key="frame" x="2" y="27" width="15" height="15"/>
@@ -31,7 +31,7 @@
                                 <state key="selected" backgroundImage="v3_contact_selected"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnB-3f-ZCr">
-                                <rect key="frame" x="0.0" y="68" width="275" height="1"/>
+                                <rect key="frame" x="0.0" y="68" width="280" height="1"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="5vp-P0-lyc"/>
@@ -55,7 +55,7 @@
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015级1班" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugj-jP-OQp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015级1班" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugj-jP-OQp">
                                 <rect key="frame" x="32" y="24" width="76" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="KZ6-hY-9wl"/>
@@ -84,14 +84,17 @@
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="kvM-hk-lb9" firstAttribute="leading" secondItem="xEi-G7-FGS" secondAttribute="leading" constant="45" id="894-ZL-twR"/>
+                    <constraint firstItem="kvM-hk-lb9" firstAttribute="leading" secondItem="xEi-G7-FGS" secondAttribute="leading" constant="40" id="894-ZL-twR"/>
                     <constraint firstAttribute="bottom" secondItem="kvM-hk-lb9" secondAttribute="bottom" id="Hta-BH-wAk"/>
                     <constraint firstAttribute="trailing" secondItem="kvM-hk-lb9" secondAttribute="trailing" id="RiB-s7-Kef"/>
                     <constraint firstItem="kvM-hk-lb9" firstAttribute="top" secondItem="xEi-G7-FGS" secondAttribute="top" id="XUt-1R-BlD"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="checkBoxWCOnst" destination="bvf-zr-knh" id="Efa-6H-0kp"/>
                 <outlet property="checkBtn" destination="G0x-Rt-epX" id="wFh-jD-GIT"/>
+                <outlet property="marginLeftConst" destination="894-ZL-twR" id="xsp-3l-9Rv"/>
+                <outlet property="nameleftConst" destination="3zl-vw-Qyc" id="hzD-Ba-cZ1"/>
                 <outlet property="scrollLine" destination="QnB-3f-ZCr" id="O0x-E4-mAv"/>
                 <outlet property="showCountLabel" destination="Bsz-SP-3bd" id="mgZ-p9-Utq"/>
                 <outlet property="showNameLabel" destination="Ugj-jP-OQp" id="Lc5-pz-ntc"/>
